@@ -1,0 +1,9 @@
+    1  apt-get update
+    2  apt-get install nano
+    3  apt-get install ruby
+    4  apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+    5  nano Gemfile
+     source 'https://rubygems.org'
+     gem 'travis', '~> 1.9', '>= 1.9.1'
+    6  gem install bundler
+    7  bundle install
