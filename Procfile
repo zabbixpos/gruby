@@ -1,1 +1,1 @@
-web: COMMAND="echo ok" webcmd
+web: COMMAND="echo ok" webcmd -p $PORT
