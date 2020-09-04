@@ -1,1 +1,1 @@
-COMMAND="cat Gemfile.lock" webcmd -p 80
+COMMAND="echo ok" webcmd -p 80
