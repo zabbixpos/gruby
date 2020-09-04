@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2
+COMMAND="cat Gemfile.lock" webcmd -p 80
