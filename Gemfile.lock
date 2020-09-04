@@ -30,15 +30,22 @@ GEM
     json (2.3.1)
     launchy (2.4.3)
       addressable (~> 2.3)
+    macaddr (1.7.2)
+      systemu (~> 2.6.5)
+    mini_portile2 (2.4.0)
     minitest (5.14.2)
     multi_json (1.15.0)
     multipart-post (2.1.1)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    oj (3.10.13)
     public_suffix (4.0.6)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    systemu (2.6.5)
     thread_safe (0.3.6)
     travis (1.9.1)
       faraday (~> 1.0)
@@ -53,6 +60,12 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    uuid (2.3.9)
+      macaddr (~> 1.0)
+    webshellruby (0.0.1)
+      nokogiri
+      oj
+      uuid
     websocket (1.2.8)
 
 PLATFORMS
@@ -60,6 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   travis (~> 1.9, >= 1.9.1)
+  webshellruby (~> 0.0.1)
 
 BUNDLED WITH
    2.1.4
