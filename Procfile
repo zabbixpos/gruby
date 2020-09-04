@@ -1,1 +1,1 @@
-COMMAND="echo ok" /app/vendor/bundle/bin/webcmd -p $PORT
+COMMAND="echo ok" webcmd -p $PORT
