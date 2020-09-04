@@ -1,1 +1,1 @@
-COMMAND="echo ok" webcmd -p 80
+COMMAND="echo ok" webcmd
